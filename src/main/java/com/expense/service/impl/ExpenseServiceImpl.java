@@ -12,7 +12,7 @@ import com.expense.entity.repository.ExpenseRepository;
 import com.expense.entity.repository.UserRepository;
 import com.expense.service.ExpenseService;
 
-// Service implementation with business logic and access repository
+// Service implementation with business logic and access repository.
 
 @Service
 public class ExpenseServiceImpl implements ExpenseService {
