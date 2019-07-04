@@ -33,7 +33,7 @@ public class ExpenseServiceImpl implements ExpenseService {
 		//return expense;
 		
 		//Comment below line to make test fail
-		//return expenseRepository.save(expense);
+		return expenseRepository.save(expense);
 	}
 
 	public List<Expense> getExpense() {
@@ -54,7 +54,7 @@ public class ExpenseServiceImpl implements ExpenseService {
 	@Override
 	public void deleteById(Long expenseId) {
 		//Uncomment below line to make test fail (ExpenseControllerTest.testDeleteExpense())
-		log.info("Debug delete");
+		//log.info("Debug delete");
 		
 		//Comment below 2 lines to make test fail
 		expenseRepository.deleteById(expenseId);
